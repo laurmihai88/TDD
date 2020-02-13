@@ -1,5 +1,6 @@
-package com.laurentiu;
+package com.laurentiu.junit4;
 
+import com.laurentiu.Person;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertTrue;

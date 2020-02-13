@@ -1,5 +1,6 @@
-package com.laurentiu;
+package com.laurentiu.junit4;
 
+import com.laurentiu.Calculator;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

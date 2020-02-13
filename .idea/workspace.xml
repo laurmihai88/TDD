@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e21b99e-0785-4ddb-816e-dee6f1be3c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laurentiu/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/laurentiu/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/laurentiu/mockito/MocksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/laurentiu/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/laurentiu/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/PersonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,6 +21,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/mockito/MocksTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/laurentiu/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -29,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/PersonTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/laurentiu/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/laurentiu/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/laurentiu/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/laurentiu/mockito/MocksTest.java" />
       </list>
     </option>
   </component>
@@ -183,7 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581589222638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581589742197" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -202,31 +227,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.givenPersonWithAge20">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laurentiu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.laurentiu" />
-      <option name="MAIN_CLASS_NAME" value="com.laurentiu.CalculatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MocksTest">
     <configuration name="CalculatorTest.whenDivide_returnOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laurentiu.*" />
+          <option name="PATTERN" value="com.laurentiu.junit4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.laurentiu" />
-      <option name="MAIN_CLASS_NAME" value="com.laurentiu.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.laurentiu.junit4" />
+      <option name="MAIN_CLASS_NAME" value="com.laurentiu.junit4.CalculatorTest" />
       <option name="METHOD_NAME" value="whenDivide_returnOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -237,14 +248,28 @@
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laurentiu.*" />
+          <option name="PATTERN" value="com.laurentiu.junit4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.laurentiu" />
-      <option name="MAIN_CLASS_NAME" value="com.laurentiu.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.laurentiu.junit4" />
+      <option name="MAIN_CLASS_NAME" value="com.laurentiu.junit4.CalculatorTest" />
       <option name="METHOD_NAME" value="whenMultiply_returnOk" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MocksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laurentiu.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laurentiu.mockito" />
+      <option name="MAIN_CLASS_NAME" value="com.laurentiu.mockito.MocksTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,12 +278,12 @@
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laurentiu.*" />
+          <option name="PATTERN" value="com.laurentiu.junit4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.laurentiu" />
-      <option name="MAIN_CLASS_NAME" value="com.laurentiu.PersonTest" />
+      <option name="PACKAGE_NAME" value="com.laurentiu.junit4" />
+      <option name="MAIN_CLASS_NAME" value="com.laurentiu.junit4.PersonTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,12 +292,12 @@
       <module name="TDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laurentiu.*" />
+          <option name="PATTERN" value="com.laurentiu.junit4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.laurentiu" />
-      <option name="MAIN_CLASS_NAME" value="com.laurentiu.PersonTest" />
+      <option name="PACKAGE_NAME" value="com.laurentiu.junit4" />
+      <option name="MAIN_CLASS_NAME" value="com.laurentiu.junit4.PersonTest" />
       <option name="METHOD_NAME" value="givenPersonWithAge20" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -280,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.CalculatorTest.whenDivide_returnOk" />
       <item itemvalue="JUnit.CalculatorTest.whenMultiply_returnOk" />
       <item itemvalue="JUnit.PersonTest" />
       <item itemvalue="JUnit.PersonTest.givenPersonWithAge20" />
+      <item itemvalue="JUnit.MocksTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MocksTest" />
         <item itemvalue="JUnit.PersonTest.givenPersonWithAge20" />
         <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.CalculatorTest.whenMultiply_returnOk" />
         <item itemvalue="JUnit.CalculatorTest.whenDivide_returnOk" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,16 +339,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581585928186</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TDD pushed">
+      <created>1581589244500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581589244500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_whenSubstract_returnOk - 2020.02.13 at 09h 55m 05s.xml">
-      <configuration name="CalculatorTest.whenSubstract_returnOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_whenSubstract_returnOk - 2020.02.13 at 09h 55m 25s.xml">
-      <configuration name="CalculatorTest.whenSubstract_returnOk" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_whenDivide_returnOk - 2020.02.13 at 10h 03m 02s.xml">
       <configuration name="CalculatorTest.whenDivide_returnOk" configurationId="JUnit" />
     </history-entry>
@@ -348,6 +374,12 @@
     <history-entry file="CalculatorTest_whenMultiply_returnOk - 2020.02.13 at 11h 19m 07s.xml">
       <configuration name="CalculatorTest.whenMultiply_returnOk" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest - 2020.02.13 at 12h 18m 25s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_givenPersonWithAge20 - 2020.02.13 at 12h 20m 24s.xml">
+      <configuration name="PersonTest.givenPersonWithAge20" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -365,13 +397,13 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32961586" />
@@ -395,20 +427,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="TDD pushed" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/laurentiu/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -419,12 +441,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/junit4/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/laurentiu/mockito/MocksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
